@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+</head>
+<body>
+    <div id="dealerDeck"></div>
+    <div id="dealerTotal"></div>
+    <div id="playerDeck"></div>
+    <div id="playerTotal"></div>
+    
+    <div id="playerActions">
+        <button id="deal">Deal</button>
+
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+
+        <button onclick="clearBoard()">Clear</button>
+    </div>
+
+    <div id="bustScreen" class="bustScreen hidden">
+        <button onclick="location.reload()">Bust</button>
+    </div>
+</body>
+</html>
